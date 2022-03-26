@@ -1,0 +1,39 @@
+insertionSort Algorithm
+Pawas Aggarwal
+
+Goals:
+Implement insertion sort using pointers in C.
+
+Input:
+Not Applicable
+
+Output:
+Print a sorted array.
+
+Steps:
+
+initialize array with elements in unsorted order.
+
+create function to print values inside the array
+printValues()
+  initialize for loop to go until the length of array.
+  print element according to the value of sentry variable of for loop
+
+create function to sort the array using insertion sort
+sort()
+  initialize for loop with i at 1 and add 1 until it reaches length of array
+  initialize variable temp with value in array at i
+  initialize variable j with value i-1
+  initialize while loop and continue until j is more than equal to zero and 
+            value in array at j is more than value of temp.
+            change value in array at j+1 to values in array at j
+            subtract 1 from value of j
+  change value in array at j+1 to value of temporary
+
+create main function to run the program
+main()
+  print values in array before sorting
+  call sort() function to sort the array
+  print values in array after sorting
+  end function
+

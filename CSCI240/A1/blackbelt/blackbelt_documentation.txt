@@ -1,0 +1,6 @@
+Here is the list of things I did:
+
+1. Hello world program in C++: I wrote the hello world program in c++ and compiled it using 'g++ hello.cpp' and then ran it using './a.out'
+2. Hello world program in java: I wrote the hello world program in java  and compiled it using 'javac  hello.java' and then ran it using 'java HelloWorld'
+3. Hello world program in bash: I wrote the hello world program in bash and ran it using 'bash hello.sh'
+

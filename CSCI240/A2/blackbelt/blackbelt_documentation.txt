@@ -1,0 +1,5 @@
+Here's a list of things I did for blackbelts:
+1. Make a random list of integers and sort it.
+2. Implement selection sort in C.
+3. Implement insertion sort in C.
+

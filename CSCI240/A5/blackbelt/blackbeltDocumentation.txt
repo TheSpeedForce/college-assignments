@@ -1,0 +1,5 @@
+I added three edge cases solution to improve the program
+1. What if the input file has a line of three zeros?: it checks if sum is 0 and doesnt print if true
+2. What if there are too few or too many numbers?: as it is iterating, it doesnt matter how many numbers are there (works in base too)
+3. What if the text line is blank?: checks if line is blank, doesnt print if true
+

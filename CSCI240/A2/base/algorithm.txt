@@ -1,0 +1,41 @@
+Pointers and Bubbles Algorithm
+Pawas Aggarwal
+
+Goals:
+Implement a simple bubble sort algorithm.
+
+Input:
+Not Applicable
+
+Output:
+Print a sorted array.
+
+Steps:
+
+initialize array with elements in unsorted order.
+
+create function to print values inside the array
+printValues()
+  initialize for loop to go until the length of array.
+  print element according to the value of sentry variable of for loop
+
+create function to swap values at two different adresses
+swap(firstVal, secondVal)
+  initialize temporary variable with value of firstVal
+  change value of firstVal to secondVal
+  change value of secondVal to value of temporary variable
+
+create function to sort the array using bubble sort
+sort()
+  initialize first for loop with i at 0 and add 1 until it reaches length of array
+  initialize second for loop with j at 0 and add 1 until it reaches 1 less than lenght of the array
+  check if the value in array at j is larger than the value at j+1
+    if true, call swap and pass the values at j and j+1 as parameters
+    print array by calling printValues()
+ 
+create main function to run the program
+main()
+  print values in array before sorting
+  call sort() function to sort the array
+  print values in array after sorting
+  end function
