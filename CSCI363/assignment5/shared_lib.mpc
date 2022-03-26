@@ -1,0 +1,14 @@
+// shared_lib.mpc
+// ...
+
+project (shared_exe) {
+    exename = shared_exe
+    install = .
+    
+    libs += my_shared_lib
+    after += my_shared_lib
+    
+    Source_Files {
+        shared_exe.cpp
+    }
+}

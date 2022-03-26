@@ -1,0 +1,22 @@
+
+project (assignment4) {
+  exename = assignment4
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -std=c++11
+  }
+
+  Source_Files {
+    main.cpp
+  }
+
+  Template_Files {
+    Array_Base.cpp
+    Array.cpp
+    Stack.cpp
+    Calculator.cpp
+    Expr_Tree_Builder.cpp
+    Eval_Expr_Tree.cpp
+  }
+}

@@ -1,0 +1,16 @@
+// my_shared_lib.mpc
+
+project (my_shared_lib)
+{
+    sharedname = my_shared_lib   // declare project
+
+    dynamicflags += MY_SHARED_LIB_BUILD_DLL
+
+    dllout = .
+    libout = .
+
+    Source_Files
+    {
+        my_shared_lib.cpp
+    }
+}

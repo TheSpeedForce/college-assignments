@@ -1,0 +1,5 @@
+Generating 'make' output using default input
+my_shared_lib.mpc: line 3:
+ERROR: No project was defined
+ERROR: Unable to process my_shared_lib.mpc
+ERROR: Unable to process: default input
